@@ -1,0 +1,78 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+}
+
+.image 
+{
+float: left;
+}
+img
+{
+	width: 250px;
+}
+
+
+.head
+{
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.advertisement
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.content
+{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.header
+{
+	display: flex;
+	align-items:flex-start;
+	margin-left: 300px;
+	margin-bottom: 50px;
+}
+.logo
+{
+	margin-right: 40px;
+	
+}
+ 
+/*  I try to not modify the html file and make this hyperlink stick to the left bottom but its overlap and ı cannot solvethis issue
+ */
+ a{
+	position: absolute;
+ bottom: 0;
+ left: 0;
+ margin-right: 10px;
+
+}
+
+/* a:nth-of-type(1) {
+	position: absolute;
+ bottom: 0;
+ left: 0;
+ margin-right: 10px;
+  }
+  
+  a:nth-of-type(2) {
+	position: absolute;
+ bottom: 0;
+ left: 0;
+ margin-right: 10px;
+  } */
