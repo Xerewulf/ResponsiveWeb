@@ -1,12 +1,8 @@
 .navbar {
     font-size: 1.2em;
-    /* background-color: #000010; */
-    
   }
   
-  .navbar ul {
-    list-style-type: none;
-    
+  .navbar ul {/*here I make my nav bar list to look in the middle with help of li*/
     text-align: center;
   }
   
@@ -23,17 +19,17 @@
     text-decoration: none;
   }
   
-  .navbar li a:hover {
+  .navbar li a:hover {/*when I hover its changes collor */
     background-color: gray;
     color: white;
     border-radius: 20%;
   }
   
-  body{
+  body{/* I make the whole backgroun color gray*/
     background-color: slategray;
     color: black;
   }
-  .logo {
+  .logo {/* this is the logo its in the navbar */
     height: 100px;
     margin: 5px 10px;
     float: left;
@@ -44,14 +40,14 @@
     font-size: 30px;
   }
 
-  .div1{
+  .div1{/*I use this in couple of places and its basicly makes my paragraf and images appear side by side*/
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .d2
-  {
+  {/*its resizing for my paragraf */
     width: 50%;
     margin-left: 35px;
 
@@ -61,7 +57,7 @@
     border-radius: 12%;
 }
 
-.maindiv2{
+.maindiv2{/*I use this in couple of places too and its make my text appear top and three images side by side  with help of div2(below code)*/
     margin-top: 60px;
     text-align: center;
     font-size: 1.5em;
@@ -85,7 +81,7 @@ footer {
   color: #fff;
   padding: 30px 0;
 }
-
+/* with this footer div cods I make my footer appear more plasent like side by side list goes middle*/
 .footerdiv {
   max-width: 1200px;
   margin: 0 auto;
@@ -102,7 +98,7 @@ footer {
   padding: 0 15px;
   
 }
-.secondp{
+.secondp{/*it is make what div1 makes and has different value*/
     margin-top: 50px;
     text-align: center;
     display: flex;
@@ -115,7 +111,7 @@ footer {
     font-size: 2.2em;
 }
 
-.seperat{
+.seperat{/* in this part I add images as backgroun to my div and position into middle*/
     background-image: url("img/img5.jpg");
     background-size: cover;
   background-position: center;
@@ -127,7 +123,7 @@ padding-bottom: 25px;
 .seperat:hover{
    opacity: 75%;
 }
-.contact-us {
+.contact-us {/*this is the contect us form css*/
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
