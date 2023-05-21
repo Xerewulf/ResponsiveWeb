@@ -36,3 +36,9 @@ $(document).ready(function() {
     active: 1
   });
 });
+
+/*For plugings ı use Magnific-Popup for make a pop up when I clicked,
+-slick for making image show on background,
+-dataTables for making a table. 
+For widget I use
+-Accordion in the home page top of the app*/ 
