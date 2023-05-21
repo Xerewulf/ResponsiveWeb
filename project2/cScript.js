@@ -20,7 +20,7 @@ $(document).ready(function() {
 
       if (!validateEmail(email)) {
         alert('Please enter a valid email address.');
-        return;
+        return;//Check if email is valid or not with func.
       }
 
       if (message.trim() === '') {
@@ -35,7 +35,7 @@ $(document).ready(function() {
     });
 
     function validateEmail(email) {
-      var re = /\S+@\S+\.\S+/;
+      var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;//regex for validation
       return re.test(email);
     }
   });

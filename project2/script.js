@@ -1,9 +1,7 @@
 $(document).ready(function(){
     $('#mySlider').slick({
       slidesToShow: 3,
-      autoplay: true,
-      prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-      nextArrow: '<button type="button" class="slick-next">Next</button>'
+      autoplay: true//Autoplay is showing img fluently
     });
   });
 
