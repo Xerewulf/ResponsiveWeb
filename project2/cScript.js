@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Form submission
     $('form').submit(function(e) {
-      e.preventDefault(); // Prevent form from submitting
+      e.preventDefault(); 
 
       // Perform form validation
       var name = $('#name').val();
@@ -28,15 +28,12 @@ $(document).ready(function() {
         return;
       }
 
-      // Submit the form or perform further actions
       alert('Form submitted successfully!');
-      // You can perform additional actions like sending an email or storing the form data in a database.
+      
 
-      // Reset the form
       $('form')[0].reset();
     });
 
-    // Email validation function
     function validateEmail(email) {
       var re = /\S+@\S+\.\S+/;
       return re.test(email);
