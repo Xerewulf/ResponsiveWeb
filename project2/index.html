@@ -4,22 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alier</title>
 
     <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
         <link rel="stylesheet" type="text/css" href="./Magnific-Popup-master/dist/magnific-popup.css">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.socialshare/1.0.16/jquery.socialshare.min.js"></script>
+
+        
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+        <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+        
+
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     </head>
       
 
 </head>
 <body>
+    <div >
+        <h1>ANKARA</h1>
+        <h3>Onun için Herşey</h3>
+        <div></div>
+        <div style="float: left;">
+            <form action="https://tr.wikipedia.org/wiki/Ankara" >
+                <button type="submit" class="twobutton">What is Ankara</button>
+             </form>
+            </button></div>
+
+            
+
+            <div style="text-align: right;">
+                <form action="contact.html" >
+                <button type="submit" class="twobutton">Contect Us</button>
+             </form>
+                </button></div>
+    </div>
+
+
+    <div id="accordion" class="accord">
+        <h3>Climate</h3>
+        <div style="background-color: darkslategray; color: aliceblue;">
+          <p>Ankara has a continental climate with hot, dry summers and cold winters. Summers are generally hot and dry, with temperatures reaching around 30-35 degrees Celsius (86-95 degrees Fahrenheit). Winters can be cold, with temperatures often dropping below freezing, and occasional snowfall.</p>
+        </div>
+        <h3>Location</h3>
+        <div style="background-color: darkslategray; color: aliceblue;">
+          <p>Ankara is situated in the region known as Central Anatolia. It is surrounded by the provinces of Kırıkkale, Aksaray, Eskişehir, Bolu, Çankırı, and Konya. The city is located on a high plateau, approximately 938 meters (3,077 feet) above sea level.</p>
+        </div>
+        <h3>History</h3>
+        <div style="background-color: darkslategray; color: aliceblue;">
+          <p>Ankara has a rich history that dates back to ancient times. It has been inhabited by various civilizations, including the Hittites, Phrygians, Romans, Byzantines, and Ottomans. In 1923, after the establishment of the Republic of Turkey, Ankara was declared as the capital by the country's founder, Mustafa Kemal Atatürk.</p>
+        </div>
+      </div>
     
-    <div id="mySlider">
+    <div id="mySlider" class="mySlider">
         
         <div>
           <img src="./img/1.jpg" alt="Image 1">
@@ -53,12 +98,64 @@
     </div>
 </div>
 
-<div>
-    <button class="facebook-share" data-network="facebook">Share on Facebook</button>
-    <button class="twitter-share" data-network="twitter">Share on Twitter</button>
-    <button class="linkedin-share" data-network="linkedin">Share on LinkedIn</button>
-</div>
+<div class="tableclass">
+    <table id="myTable" class="table">
+        <thead>
+          <tr>
+            <th>    </th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> <img src="img/behzat.jpg" alt="" style="width: 40px;"></td>
+            <td>Behzat Ç</td>
+            <td>behzat@example.com</td>
+            <td>Ankara</td>
+          </tr>
+          <tr>
+            <td> <img src="img/harun.jpg" alt="" style="width: 50px;"></td>
+            <td>Harun Sinanoğlu</td>
+            <td>haruneda@example.com</td>
+            <td>Ankara</td>
+          </tr>
+          <tr>
+            <td> <img src="img/hayalet.jpg" alt="" style="width: 50px;"></td>
+            <td>Sabri Türkmen</td>
+            <td>hayalet@example.com</td>
+            <td>Ankara</td>
+          </tr>
+          <tr>
+            <td> <img src="img/akbaba.jpg" alt="" style="width: 50px;"></td>
+            <td>İsmet Kurt</td>
+            <td>akbaba@example.com</td>
+            <td>Ankara</td>
+          </tr>
+          <tr>
+            <td> <img src="img/cavit.jpg" alt="" style="width: 40px;"></td>
+            <td>Cavit Hanimoğlu</td>
+            <td>chanimoğlu@example.com</td>
+            <td>Ankara</td>
+          </tr>
+        </tbody>
+      </table>
       
+</div>
+
+<footer>
+    This Page create by whom? Maybe the person himself doesn't know it as well.
+
+    <div style="margin: 15px;">
+        <a href="index.html">Home</a>
+    </div>
+        <div>
+            <a href="contact.html">Contect Us</a>
+        </div>
+
+  </footer>
+
     <script type="text/javascript" src="./Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
 
 <script src="script.js"></script>

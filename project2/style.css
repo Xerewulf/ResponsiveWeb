@@ -4,6 +4,8 @@ img{
 
 body{
     text-align: center;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .second{
@@ -16,3 +18,31 @@ body{
     height: 80px;
     border-radius: 50%;
 }
+.mySlider{
+padding-top: 15px;   
+margin-bottom: 15px; 
+}
+
+.accord{
+    background-color: darkslategrey;
+}
+
+.twobutton{
+    background-color: antiquewhite;
+    border-radius: 60%;
+    width: 150px;
+    height: 60px;
+}
+.twobutton:hover{
+    opacity: 95%;
+    background-color: bisque;
+}
+footer {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    color: #888;
+  }
