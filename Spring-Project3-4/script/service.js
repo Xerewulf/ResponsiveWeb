@@ -48,7 +48,7 @@ $(document).ready(function() {
             };
         
             $.ajax({
-              url: 'http://localhost:8081/pages/services.html', // get the request to this link
+              url: 'https://xerewulf.github.io/Spring-Project3-4/pages/services.html', // get the request to this link
               type: 'GET', 
               dataType: 'text',
               contentType: 'text', 
